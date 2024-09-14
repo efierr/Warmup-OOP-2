@@ -40,7 +40,7 @@ Eample:
 ``` js
 let myPokemon = new Pokemon("Charmander");
 myPokemon.levelUp(); // Logs: "Charmander leveled up to level 2. Charmander is in Stage 1!"
-myPokemon.levelUp(16); // Logs: "Charmander leveled up to level 17. Charmander has evolved to Stage 2!"
+myPokemon.levelUp(16); // Logs: "Charmander leveled up to level 17. Charmander is in Stage 2!"
 ```
 3. Attacking:
 - Write an `attack()` method that logs a message like: 
