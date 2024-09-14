@@ -75,7 +75,7 @@ myPokemon.attack(); // Logs: "Charmeleon used Flame Thrower!"
 - Stage 3: Add `"Fire Spin"` to the move pool.
 - Use `Math.random()` to randomly pick a move from the array when the `attack()` method is called.
 ``` js
-console.log(myPokemon) // Logss: {name: "Charmeleon", level: 20, moves: ["Scratch, "Flame Thrower]", stage: 2}
+console.log(myPokemon) // Logs: {name: "Charmeleon", level: 20, moves: ["Scratch, "Flame Thrower]", stage: 2}
 myPokemon.attack(); // This will choose randomly between Scratch and Flame Thrower
 ```
 
