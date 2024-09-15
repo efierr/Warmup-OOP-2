@@ -36,7 +36,7 @@ This exercise will help you practice:
     - Stage 2 (Levels 16-35): Move = `"Flame Thrower"`.
     - Stage 3 (Level 36+): Move = `"Fire Spin"`.
 - Logs the new level and stage after leveling up.
-Eample: 
+Example: 
 ``` js
 let myPokemon = new Pokemon("Charmander");
 myPokemon.levelUp(); // Logs: "Charmander leveled up to level 2. Charmander is in Stage 1!"
@@ -65,7 +65,7 @@ myPokemon.attack(); // Logs: "Charmander used Scratch!"
 - Stage 3: Change the name to the final evolved form (e.g., "Charizard").
 ``` js
 let myPokemon = new Pokemon("Charmander");
-myPokemon.levelUp(20); // Logs: "Charmander leveled up to level 20. Charmeleon has evolved to Stage 2!"
+myPokemon.levelUp(20); // Logs: "Charmeleon leveled up to level 20. Charmeleon is in Stage 2!"
 myPokemon.attack(); // Logs: "Charmeleon used Flame Thrower!"
 ```
 
@@ -83,7 +83,7 @@ myPokemon.attack(); // This will choose randomly between Scratch and Flame Throw
 ### Additional Code Explanation:
 - Moves Array:
 
-   - The moves are stored in an array called this.moves. Initially, the Pokémon knows "Scratch". When the Pokémon evolves, new moves like "Flame Thrower" or "Fire Spin" are added to the array using concat().
+   - The moves are stored in an array called this.moves. Initially, the Pokémon knows "Scratch". When the Pokémon evolves, new moves like "Flame Thrower" or "Fire Spin" are added to the array.
 - Random Move Selection:
 
   - The `attack()` method uses `Math.random()` to randomly select a move from the array of moves.
